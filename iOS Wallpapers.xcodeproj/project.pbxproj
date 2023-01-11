@@ -1,0 +1,1099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0742EE2964E4AE00F5A78E /* DailyRandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0742ED2964E4AE00F5A78E /* DailyRandomView.swift */; };
+		DF0742F02964E4DF00F5A78E /* DailyRandomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0742EF2964E4DF00F5A78E /* DailyRandomModel.swift */; };
+		DF296A582963655200F9803B /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296A572963655200F9803B /* PreviewView.swift */; };
+		DF296A5A29636C0100F9803B /* GridAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF296A5929636C0100F9803B /* GridAppView.swift */; };
+		DF3DC7B62969A0B200554AB8 /* WallpaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DC7B52969A0B200554AB8 /* WallpaperView.swift */; };
+		DF3DC7BB2969C80E00554AB8 /* DisplaysWallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DC7BA2969C80E00554AB8 /* DisplaysWallpaperModel.swift */; };
+		DF3DC7BD2969D82C00554AB8 /* iPadWallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DC7BC2969D82C00554AB8 /* iPadWallpaperModel.swift */; };
+		DF3DC7BF2969EE4300554AB8 /* MacWallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DC7BE2969EE4300554AB8 /* MacWallpaperModel.swift */; };
+		DF3DCBF7296B507B0068F910 /* DailyRandomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DCBF6296B507B0068F910 /* DailyRandomViewModel.swift */; };
+		DF3DCBFB296B51390068F910 /* OSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DCBFA296B51390068F910 /* OSModel.swift */; };
+		DF3DCBFE296B51AA0068F910 /* SpecificOSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DCBFD296B51AA0068F910 /* SpecificOSModel.swift */; };
+		DF3DCC02296B53040068F910 /* iOSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DCC01296B53040068F910 /* iOSModel.swift */; };
+		DF41E68829605B7300F4E9E6 /* VersionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E68729605B7300F4E9E6 /* VersionDetector.swift */; };
+		DF41E68D2960625C00F4E9E6 /* SafariViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E68C2960625C00F4E9E6 /* SafariViewModel.swift */; };
+		DF41E68F2960660F00F4E9E6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E68E2960660F00F4E9E6 /* LoadingView.swift */; };
+		DF41E69229606AF800F4E9E6 /* macOSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E69129606AF800F4E9E6 /* macOSViewModel.swift */; };
+		DF41E69529606ECD00F4E9E6 /* macOS13ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E69429606ECD00F4E9E6 /* macOS13ViewModel.swift */; };
+		DF41E699296070A400F4E9E6 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E698296070A400F4E9E6 /* PickerView.swift */; };
+		DF41E69E296071D000F4E9E6 /* macOS12ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E69D296071D000F4E9E6 /* macOS12ViewModel.swift */; };
+		DF41E6A12960769300F4E9E6 /* macOS11ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E6A02960769300F4E9E6 /* macOS11ViewModel.swift */; };
+		DF41E6A629607A0500F4E9E6 /* macOS10.15ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E6A529607A0500F4E9E6 /* macOS10.15ViewModel.swift */; };
+		DF41E6A929607B9000F4E9E6 /* macOS10.14ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41E6A829607B9000F4E9E6 /* macOS10.14ViewModel.swift */; };
+		DF54AEE62968298700C37B66 /* WallpaperRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54AEE52968298600C37B66 /* WallpaperRowView.swift */; };
+		DF54AEE929682E7700C37B66 /* iPhoneWallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54AEE829682E7700C37B66 /* iPhoneWallpaperModel.swift */; };
+		DF54AEEC2968339A00C37B66 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54AEEB2968339A00C37B66 /* DeviceViewModel.swift */; };
+		DF54AEEE2968379F00C37B66 /* SpecificDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54AEED2968379F00C37B66 /* SpecificDeviceViewModel.swift */; };
+		DF56D687295DD0A1006A11A5 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF56D686295DD0A1006A11A5 /* SafariView.swift */; };
+		DF7D31DE296080B200713844 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DF7D31DD296080B200713844 /* Kingfisher */; };
+		DF7D31E02960846900713844 /* SaveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7D31DF2960846900713844 /* SaveImage.swift */; };
+		DF85E4CC2954612400CC3DF1 /* Apple_WallpapersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85E4CB2954612400CC3DF1 /* Apple_WallpapersApp.swift */; };
+		DF85E4CE2954612400CC3DF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF85E4CD2954612400CC3DF1 /* ContentView.swift */; };
+		DF85E4D02954612400CC3DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF85E4CF2954612400CC3DF1 /* Assets.xcassets */; };
+		DF85E4D32954612400CC3DF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF85E4D22954612400CC3DF1 /* Preview Assets.xcassets */; };
+		DF88D2B4295B7AD200040E8B /* iOS16View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF88D2B3295B7AD200040E8B /* iOS16View.swift */; };
+		DF88D2B6295B803D00040E8B /* iOS15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF88D2B5295B803D00040E8B /* iOS15View.swift */; };
+		DF8D51E4295B9E5200CDB7C8 /* iOS14View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D51E3295B9E5200CDB7C8 /* iOS14View.swift */; };
+		DF8D51E6295BA3E300CDB7C8 /* iOS13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D51E5295BA3E300CDB7C8 /* iOS13View.swift */; };
+		DF8D51EA295BA6D100CDB7C8 /* iOS12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D51E9295BA6D100CDB7C8 /* iOS12View.swift */; };
+		DF8D51EC295BA97700CDB7C8 /* iOS11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D51EB295BA97700CDB7C8 /* iOS11View.swift */; };
+		DF8D51EE295BAC8200CDB7C8 /* iOS10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8D51ED295BAC8200CDB7C8 /* iOS10View.swift */; };
+		DF9D9A5D295C6C12009B2C14 /* macOS13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A5C295C6C12009B2C14 /* macOS13View.swift */; };
+		DF9D9A5F295C75C1009B2C14 /* macOS12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A5E295C75C1009B2C14 /* macOS12View.swift */; };
+		DF9D9A61295C7DA7009B2C14 /* macOS11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A60295C7DA7009B2C14 /* macOS11View.swift */; };
+		DF9D9A63295C8105009B2C14 /* macOS10.15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A62295C8105009B2C14 /* macOS10.15View.swift */; };
+		DF9D9A65295C84D3009B2C14 /* macOS10.14View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A64295C84D3009B2C14 /* macOS10.14View.swift */; };
+		DF9D9A69295C87E1009B2C14 /* macOS10.13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A68295C87E1009B2C14 /* macOS10.13View.swift */; };
+		DF9D9A6B295C89A4009B2C14 /* macOS10.12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A6A295C89A4009B2C14 /* macOS10.12View.swift */; };
+		DF9D9A6D295C8BAE009B2C14 /* OSX10.11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A6C295C8BAE009B2C14 /* OSX10.11View.swift */; };
+		DF9D9A6F295C8D60009B2C14 /* OSX10.10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A6E295C8D60009B2C14 /* OSX10.10View.swift */; };
+		DF9D9A71295C8F33009B2C14 /* OSX10.9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A70295C8F33009B2C14 /* OSX10.9View.swift */; };
+		DF9D9A73295C942E009B2C14 /* OSX10.8View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A72295C942E009B2C14 /* OSX10.8View.swift */; };
+		DF9D9A75295C9685009B2C14 /* OSX10.7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A74295C9685009B2C14 /* OSX10.7View.swift */; };
+		DF9D9A77295C9930009B2C14 /* OSX10.6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A76295C9930009B2C14 /* OSX10.6View.swift */; };
+		DF9D9A79295C9DE9009B2C14 /* OSX10.5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A78295C9DE9009B2C14 /* OSX10.5View.swift */; };
+		DF9D9A7B295CA0C1009B2C14 /* OSX10.4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A7A295CA0C1009B2C14 /* OSX10.4View.swift */; };
+		DF9D9A7D295CA286009B2C14 /* OSX10.3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A7C295CA286009B2C14 /* OSX10.3View.swift */; };
+		DF9D9A7F295CA4E9009B2C14 /* OSX10.2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A7E295CA4E9009B2C14 /* OSX10.2View.swift */; };
+		DF9D9A81295CA67E009B2C14 /* OSX10.0-10.1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D9A80295CA67E009B2C14 /* OSX10.0-10.1View.swift */; };
+		DFA1CEA4295CCF4800D8768A /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1CEA3295CCF4800D8768A /* infoView.swift */; };
+		DFA472F6296AE32900222AD4 /* WallpaperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA472F5296AE32900222AD4 /* WallpaperViewModel.swift */; };
+		DFAD04EF296B3C5900791976 /* FavoriteAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD04EE296B3C5900791976 /* FavoriteAlert.swift */; };
+		DFD275342967046300D06ED5 /* SpecificDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD275332967046300D06ED5 /* SpecificDeviceView.swift */; };
+		DFD27536296705A800D06ED5 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD27535296705A800D06ED5 /* DeviceModel.swift */; };
+		DFD275392967064B00D06ED5 /* SpecificDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD275382967064B00D06ED5 /* SpecificDeviceModel.swift */; };
+		DFD27C902959B5E200553D50 /* DeviceDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD27C8F2959B5E200553D50 /* DeviceDetection.swift */; };
+		DFD80A2A295B191A004B8BC9 /* MacOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD80A29295B191A004B8BC9 /* MacOSView.swift */; };
+		DFDBD588295A282600EB85AA /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDBD587295A282600EB85AA /* DeviceView.swift */; };
+		DFDBD58A295A291D00EB85AA /* OSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDBD589295A291D00EB85AA /* OSView.swift */; };
+		DFDBD58C295A2DAF00EB85AA /* iOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDBD58B295A2DAF00EB85AA /* iOSView.swift */; };
+		DFE826B4295DBFC100D74DCF /* iOS9View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE826B3295DBFC100D74DCF /* iOS9View.swift */; };
+		DFE84700296C9EC70072A4A0 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE846FF296C9EC70072A4A0 /* FavoritesView.swift */; };
+		DFE84702296C9ED50072A4A0 /* FavoritesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE84701296C9ED50072A4A0 /* FavoritesModel.swift */; };
+		DFE84704296C9EFC0072A4A0 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE84703296C9EFC0072A4A0 /* FavoritesViewModel.swift */; };
+		DFE84707296CB2890072A4A0 /* macOSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE84706296CB2890072A4A0 /* macOSModel.swift */; };
+		DFE84709296CB2900072A4A0 /* SafariModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE84708296CB2900072A4A0 /* SafariModel.swift */; };
+		DFE8470C296CB6560072A4A0 /* WallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8470B296CB6560072A4A0 /* WallpaperModel.swift */; };
+		DFE9089229648AD0000B91E2 /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE9089129648AD0000B91E2 /* LockScreenView.swift */; };
+		DFFD4ABE2960A2D8002EAB63 /* iOS9ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4ABD2960A2D8002EAB63 /* iOS9ViewModel.swift */; };
+		DFFD4AC32960ADB0002EAB63 /* iOS10ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4AC22960ADB0002EAB63 /* iOS10ViewModel.swift */; };
+		DFFD4AC62960B13C002EAB63 /* iOS11ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4AC52960B13C002EAB63 /* iOS11ViewModel.swift */; };
+		DFFD4AC92960B40C002EAB63 /* iOS12ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4AC82960B40C002EAB63 /* iOS12ViewModel.swift */; };
+		DFFD4ACC2960B50B002EAB63 /* iOS13ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4ACB2960B50B002EAB63 /* iOS13ViewModel.swift */; };
+		DFFD4ACF2960B8F3002EAB63 /* iOS14ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4ACE2960B8F3002EAB63 /* iOS14ViewModel.swift */; };
+		DFFD4AD22960BCBF002EAB63 /* iOS15ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4AD12960BCBF002EAB63 /* iOS15ViewModel.swift */; };
+		DFFD4AD52960BDE4002EAB63 /* iOS16ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4AD42960BDE4002EAB63 /* iOS16ViewModel.swift */; };
+		DFFD4AD72960BF4F002EAB63 /* iOSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4AD62960BF4F002EAB63 /* iOSViewModel.swift */; };
+		DFFD4ADB2960DC84002EAB63 /* macOS10.13ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4ADA2960DC84002EAB63 /* macOS10.13ViewModel.swift */; };
+		DFFD4ADE2960DD4C002EAB63 /* macOS10.12ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4ADD2960DD4C002EAB63 /* macOS10.12ViewModel.swift */; };
+		DFFD4AE12960DF18002EAB63 /* OSX10.11ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4AE02960DF18002EAB63 /* OSX10.11ViewModel.swift */; };
+		DFFD4AE42960E08D002EAB63 /* OSX10.10ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4AE32960E08D002EAB63 /* OSX10.10ViewModel.swift */; };
+		DFFD4AE72960E32F002EAB63 /* OSX10.9ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD4AE62960E32F002EAB63 /* OSX10.9ViewModel.swift */; };
+		DFFF236E2961A6B700ABD196 /* OSX10.8ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFF236D2961A6B700ABD196 /* OSX10.8ViewModel.swift */; };
+		DFFF23712961A7AC00ABD196 /* OSX10.7ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFF23702961A7AC00ABD196 /* OSX10.7ViewModel.swift */; };
+		DFFF23742961A84B00ABD196 /* OSX10.6ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFF23732961A84B00ABD196 /* OSX10.6ViewModel.swift */; };
+		DFFF23772961A8DD00ABD196 /* OSX10.5ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFF23762961A8DD00ABD196 /* OSX10.5ViewModel.swift */; };
+		DFFF237A2961A97500ABD196 /* OSX10.4ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFF23792961A97500ABD196 /* OSX10.4ViewModel.swift */; };
+		DFFF237D2961A9F400ABD196 /* OSX10.3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFF237C2961A9F400ABD196 /* OSX10.3ViewModel.swift */; };
+		DFFF23802961AA7C00ABD196 /* OSX10.2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFF237F2961AA7C00ABD196 /* OSX10.2ViewModel.swift */; };
+		DFFF23842961AB1100ABD196 /* OSX10.0ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFF23832961AB1100ABD196 /* OSX10.0ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF0742ED2964E4AE00F5A78E /* DailyRandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRandomView.swift; sourceTree = "<group>"; };
+		DF0742EF2964E4DF00F5A78E /* DailyRandomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRandomModel.swift; sourceTree = "<group>"; };
+		DF296A572963655200F9803B /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		DF296A5929636C0100F9803B /* GridAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridAppView.swift; sourceTree = "<group>"; };
+		DF3DC7B52969A0B200554AB8 /* WallpaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperView.swift; sourceTree = "<group>"; };
+		DF3DC7BA2969C80E00554AB8 /* DisplaysWallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaysWallpaperModel.swift; sourceTree = "<group>"; };
+		DF3DC7BC2969D82C00554AB8 /* iPadWallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadWallpaperModel.swift; sourceTree = "<group>"; };
+		DF3DC7BE2969EE4300554AB8 /* MacWallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacWallpaperModel.swift; sourceTree = "<group>"; };
+		DF3DCBF6296B507B0068F910 /* DailyRandomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRandomViewModel.swift; sourceTree = "<group>"; };
+		DF3DCBFA296B51390068F910 /* OSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSModel.swift; sourceTree = "<group>"; };
+		DF3DCBFD296B51AA0068F910 /* SpecificOSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificOSModel.swift; sourceTree = "<group>"; };
+		DF3DCC01296B53040068F910 /* iOSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSModel.swift; sourceTree = "<group>"; };
+		DF41E68729605B7300F4E9E6 /* VersionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionDetector.swift; sourceTree = "<group>"; };
+		DF41E68C2960625C00F4E9E6 /* SafariViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewModel.swift; sourceTree = "<group>"; };
+		DF41E68E2960660F00F4E9E6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DF41E69129606AF800F4E9E6 /* macOSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSViewModel.swift; sourceTree = "<group>"; };
+		DF41E69429606ECD00F4E9E6 /* macOS13ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS13ViewModel.swift; sourceTree = "<group>"; };
+		DF41E698296070A400F4E9E6 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		DF41E69D296071D000F4E9E6 /* macOS12ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS12ViewModel.swift; sourceTree = "<group>"; };
+		DF41E6A02960769300F4E9E6 /* macOS11ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS11ViewModel.swift; sourceTree = "<group>"; };
+		DF41E6A529607A0500F4E9E6 /* macOS10.15ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS10.15ViewModel.swift; sourceTree = "<group>"; };
+		DF41E6A829607B9000F4E9E6 /* macOS10.14ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS10.14ViewModel.swift; sourceTree = "<group>"; };
+		DF54AEE52968298600C37B66 /* WallpaperRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperRowView.swift; sourceTree = "<group>"; };
+		DF54AEE829682E7700C37B66 /* iPhoneWallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneWallpaperModel.swift; sourceTree = "<group>"; };
+		DF54AEEB2968339A00C37B66 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		DF54AEED2968379F00C37B66 /* SpecificDeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificDeviceViewModel.swift; sourceTree = "<group>"; };
+		DF56D686295DD0A1006A11A5 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		DF7D31DF2960846900713844 /* SaveImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImage.swift; sourceTree = "<group>"; };
+		DF85E4C82954612400CC3DF1 /* iOS Wallpapers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Wallpapers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF85E4CB2954612400CC3DF1 /* Apple_WallpapersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_WallpapersApp.swift; sourceTree = "<group>"; };
+		DF85E4CD2954612400CC3DF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF85E4CF2954612400CC3DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF85E4D22954612400CC3DF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF88D2B3295B7AD200040E8B /* iOS16View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS16View.swift; sourceTree = "<group>"; };
+		DF88D2B5295B803D00040E8B /* iOS15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS15View.swift; sourceTree = "<group>"; };
+		DF8D51E3295B9E5200CDB7C8 /* iOS14View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14View.swift; sourceTree = "<group>"; };
+		DF8D51E5295BA3E300CDB7C8 /* iOS13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13View.swift; sourceTree = "<group>"; };
+		DF8D51E9295BA6D100CDB7C8 /* iOS12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS12View.swift; sourceTree = "<group>"; };
+		DF8D51EB295BA97700CDB7C8 /* iOS11View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS11View.swift; sourceTree = "<group>"; };
+		DF8D51ED295BAC8200CDB7C8 /* iOS10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10View.swift; sourceTree = "<group>"; };
+		DF9D9A5C295C6C12009B2C14 /* macOS13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS13View.swift; sourceTree = "<group>"; };
+		DF9D9A5E295C75C1009B2C14 /* macOS12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS12View.swift; sourceTree = "<group>"; };
+		DF9D9A60295C7DA7009B2C14 /* macOS11View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS11View.swift; sourceTree = "<group>"; };
+		DF9D9A62295C8105009B2C14 /* macOS10.15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS10.15View.swift; sourceTree = "<group>"; };
+		DF9D9A64295C84D3009B2C14 /* macOS10.14View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS10.14View.swift; sourceTree = "<group>"; };
+		DF9D9A68295C87E1009B2C14 /* macOS10.13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS10.13View.swift; sourceTree = "<group>"; };
+		DF9D9A6A295C89A4009B2C14 /* macOS10.12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS10.12View.swift; sourceTree = "<group>"; };
+		DF9D9A6C295C8BAE009B2C14 /* OSX10.11View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.11View.swift; sourceTree = "<group>"; };
+		DF9D9A6E295C8D60009B2C14 /* OSX10.10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.10View.swift; sourceTree = "<group>"; };
+		DF9D9A70295C8F33009B2C14 /* OSX10.9View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.9View.swift; sourceTree = "<group>"; };
+		DF9D9A72295C942E009B2C14 /* OSX10.8View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.8View.swift; sourceTree = "<group>"; };
+		DF9D9A74295C9685009B2C14 /* OSX10.7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.7View.swift; sourceTree = "<group>"; };
+		DF9D9A76295C9930009B2C14 /* OSX10.6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.6View.swift; sourceTree = "<group>"; };
+		DF9D9A78295C9DE9009B2C14 /* OSX10.5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.5View.swift; sourceTree = "<group>"; };
+		DF9D9A7A295CA0C1009B2C14 /* OSX10.4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.4View.swift; sourceTree = "<group>"; };
+		DF9D9A7C295CA286009B2C14 /* OSX10.3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.3View.swift; sourceTree = "<group>"; };
+		DF9D9A7E295CA4E9009B2C14 /* OSX10.2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.2View.swift; sourceTree = "<group>"; };
+		DF9D9A80295CA67E009B2C14 /* OSX10.0-10.1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSX10.0-10.1View.swift"; sourceTree = "<group>"; };
+		DFA1CEA3295CCF4800D8768A /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
+		DFA472F5296AE32900222AD4 /* WallpaperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewModel.swift; sourceTree = "<group>"; };
+		DFAD04EE296B3C5900791976 /* FavoriteAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAlert.swift; sourceTree = "<group>"; };
+		DFD275332967046300D06ED5 /* SpecificDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificDeviceView.swift; sourceTree = "<group>"; };
+		DFD27535296705A800D06ED5 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		DFD275382967064B00D06ED5 /* SpecificDeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificDeviceModel.swift; sourceTree = "<group>"; };
+		DFD27C8F2959B5E200553D50 /* DeviceDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetection.swift; sourceTree = "<group>"; };
+		DFD80A29295B191A004B8BC9 /* MacOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSView.swift; sourceTree = "<group>"; };
+		DFDBD587295A282600EB85AA /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		DFDBD589295A291D00EB85AA /* OSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSView.swift; sourceTree = "<group>"; };
+		DFDBD58B295A2DAF00EB85AA /* iOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSView.swift; sourceTree = "<group>"; };
+		DFE826B3295DBFC100D74DCF /* iOS9View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS9View.swift; sourceTree = "<group>"; };
+		DFE846FF296C9EC70072A4A0 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		DFE84701296C9ED50072A4A0 /* FavoritesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesModel.swift; sourceTree = "<group>"; };
+		DFE84703296C9EFC0072A4A0 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		DFE84706296CB2890072A4A0 /* macOSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSModel.swift; sourceTree = "<group>"; };
+		DFE84708296CB2900072A4A0 /* SafariModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariModel.swift; sourceTree = "<group>"; };
+		DFE8470B296CB6560072A4A0 /* WallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperModel.swift; sourceTree = "<group>"; };
+		DFE9089129648AD0000B91E2 /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		DFFD4ABD2960A2D8002EAB63 /* iOS9ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS9ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4AC22960ADB0002EAB63 /* iOS10ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4AC52960B13C002EAB63 /* iOS11ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS11ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4AC82960B40C002EAB63 /* iOS12ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS12ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4ACB2960B50B002EAB63 /* iOS13ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS13ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4ACE2960B8F3002EAB63 /* iOS14ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS14ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4AD12960BCBF002EAB63 /* iOS15ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS15ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4AD42960BDE4002EAB63 /* iOS16ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS16ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4AD62960BF4F002EAB63 /* iOSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSViewModel.swift; sourceTree = "<group>"; };
+		DFFD4ADA2960DC84002EAB63 /* macOS10.13ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS10.13ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4ADD2960DD4C002EAB63 /* macOS10.12ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS10.12ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4AE02960DF18002EAB63 /* OSX10.11ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.11ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4AE32960E08D002EAB63 /* OSX10.10ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.10ViewModel.swift; sourceTree = "<group>"; };
+		DFFD4AE62960E32F002EAB63 /* OSX10.9ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.9ViewModel.swift; sourceTree = "<group>"; };
+		DFFF236D2961A6B700ABD196 /* OSX10.8ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.8ViewModel.swift; sourceTree = "<group>"; };
+		DFFF23702961A7AC00ABD196 /* OSX10.7ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.7ViewModel.swift; sourceTree = "<group>"; };
+		DFFF23732961A84B00ABD196 /* OSX10.6ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.6ViewModel.swift; sourceTree = "<group>"; };
+		DFFF23762961A8DD00ABD196 /* OSX10.5ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.5ViewModel.swift; sourceTree = "<group>"; };
+		DFFF23792961A97500ABD196 /* OSX10.4ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.4ViewModel.swift; sourceTree = "<group>"; };
+		DFFF237C2961A9F400ABD196 /* OSX10.3ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.3ViewModel.swift; sourceTree = "<group>"; };
+		DFFF237F2961AA7C00ABD196 /* OSX10.2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.2ViewModel.swift; sourceTree = "<group>"; };
+		DFFF23832961AB1100ABD196 /* OSX10.0ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSX10.0ViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF85E4C52954612400CC3DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7D31DE296080B200713844 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0742EC2964E49E00F5A78E /* DailyRandom */ = {
+			isa = PBXGroup;
+			children = (
+				DF0742ED2964E4AE00F5A78E /* DailyRandomView.swift */,
+				DF0742EF2964E4DF00F5A78E /* DailyRandomModel.swift */,
+				DF3DCBF6296B507B0068F910 /* DailyRandomViewModel.swift */,
+			);
+			path = DailyRandom;
+			sourceTree = "<group>";
+		};
+		DF0A0D552954AA74009AA57A /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				DFD80A29295B191A004B8BC9 /* MacOSView.swift */,
+				DF41E69129606AF800F4E9E6 /* macOSViewModel.swift */,
+				DF41E69329606EB800F4E9E6 /* macOS 13 Ventura */,
+				DF41E69A296071B000F4E9E6 /* macOS 12 Monterey */,
+				DF41E69F2960768500F4E9E6 /* macOS 11 Big Sur */,
+				DF41E6A4296079F200F4E9E6 /* macOS 10.15 Catalina */,
+				DF41E6A729607B6F00F4E9E6 /* macOS 10.14 Mojave */,
+				DFFD4AD92960DC6F002EAB63 /* macOS 10.13 High Sierra */,
+				DFFD4ADC2960DD38002EAB63 /* macOS 10.12 Sierra */,
+				DFFD4ADF2960DF05002EAB63 /* OSX 10.11 El Capitan */,
+				DFFD4AE22960E078002EAB63 /* OSX 10.10 Yosemite */,
+				DFFD4AE52960E31E002EAB63 /* OSX 10.9 Mavericks */,
+				DFFF236C2961A6A000ABD196 /* OSX 10.8 Mountain Lion */,
+				DFFF236F2961A79200ABD196 /* OSX 10.7 Lion */,
+				DFFF23722961A82800ABD196 /* OSX 10.6 Snow Leopard */,
+				DFFF23752961A8CB00ABD196 /* OSX 10.5 Leopard */,
+				DFFF23782961A96500ABD196 /* OSX 10.4 Tiger */,
+				DFFF237B2961A9E800ABD196 /* OSX 10.3 Panther */,
+				DFFF237E2961AA6C00ABD196 /* OSX 10.2 Jaguar */,
+				DFFF23812961AAFB00ABD196 /* OSX 10.0 - 10.1 */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		DF0A0D562954AA7A009AA57A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DFDBD58B295A2DAF00EB85AA /* iOSView.swift */,
+				DFFD4AD62960BF4F002EAB63 /* iOSViewModel.swift */,
+				DFFD4AD32960BDDA002EAB63 /* iOS 16 */,
+				DFFD4AD02960BC8E002EAB63 /* iOS 15 */,
+				DFFD4ACD2960B8E4002EAB63 /* iOS 14 */,
+				DFFD4ACA2960B4FF002EAB63 /* iOS 13 */,
+				DFFD4AC72960B400002EAB63 /* iOS 12 */,
+				DFFD4AC42960B12F002EAB63 /* iOS 11 */,
+				DFFD4AC12960ADA5002EAB63 /* iOS 10 */,
+				DFFD4ABC2960A2CB002EAB63 /* iOS 9 */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		DF296A542963653900F9803B /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				DF296A572963655200F9803B /* PreviewView.swift */,
+				DF296A5929636C0100F9803B /* GridAppView.swift */,
+				DFE9089129648AD0000B91E2 /* LockScreenView.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		DF3DC7B72969C2FA00554AB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFE8470B296CB6560072A4A0 /* WallpaperModel.swift */,
+				DF54AEE829682E7700C37B66 /* iPhoneWallpaperModel.swift */,
+				DF3DC7BC2969D82C00554AB8 /* iPadWallpaperModel.swift */,
+				DF3DC7BA2969C80E00554AB8 /* DisplaysWallpaperModel.swift */,
+				DF3DC7BE2969EE4300554AB8 /* MacWallpaperModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF3DCBFC296B519A0068F910 /* Specific OS */ = {
+			isa = PBXGroup;
+			children = (
+				DF3DCBFD296B51AA0068F910 /* SpecificOSModel.swift */,
+			);
+			path = "Specific OS";
+			sourceTree = "<group>";
+		};
+		DF3DCBFF296B52E50068F910 /* Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				DF3DCC01296B53040068F910 /* iOSModel.swift */,
+				DFE84706296CB2890072A4A0 /* macOSModel.swift */,
+				DFE84708296CB2900072A4A0 /* SafariModel.swift */,
+			);
+			path = Wallpaper;
+			sourceTree = "<group>";
+		};
+		DF41E68929605C7200F4E9E6 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				DF41E68B296060A300F4E9E6 /* Information */,
+				DF85E4E22954695800CC3DF1 /* Devices */,
+				DF85E4E32954696000CC3DF1 /* OS */,
+				DF296A542963653900F9803B /* Preview */,
+				DF0742EC2964E49E00F5A78E /* DailyRandom */,
+				DFE846FE296C9EB50072A4A0 /* Favorites */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		DF41E68A29605C7F00F4E9E6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DF41E68729605B7300F4E9E6 /* VersionDetector.swift */,
+				DFD27C8F2959B5E200553D50 /* DeviceDetection.swift */,
+				DF41E68E2960660F00F4E9E6 /* LoadingView.swift */,
+				DF41E698296070A400F4E9E6 /* PickerView.swift */,
+				DF7D31DF2960846900713844 /* SaveImage.swift */,
+				DFAD04EE296B3C5900791976 /* FavoriteAlert.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DF41E68B296060A300F4E9E6 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				DFA1CEA3295CCF4800D8768A /* infoView.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		DF41E69329606EB800F4E9E6 /* macOS 13 Ventura */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A5C295C6C12009B2C14 /* macOS13View.swift */,
+				DF41E69429606ECD00F4E9E6 /* macOS13ViewModel.swift */,
+			);
+			path = "macOS 13 Ventura";
+			sourceTree = "<group>";
+		};
+		DF41E69A296071B000F4E9E6 /* macOS 12 Monterey */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A5E295C75C1009B2C14 /* macOS12View.swift */,
+				DF41E69D296071D000F4E9E6 /* macOS12ViewModel.swift */,
+			);
+			path = "macOS 12 Monterey";
+			sourceTree = "<group>";
+		};
+		DF41E69F2960768500F4E9E6 /* macOS 11 Big Sur */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A60295C7DA7009B2C14 /* macOS11View.swift */,
+				DF41E6A02960769300F4E9E6 /* macOS11ViewModel.swift */,
+			);
+			path = "macOS 11 Big Sur";
+			sourceTree = "<group>";
+		};
+		DF41E6A4296079F200F4E9E6 /* macOS 10.15 Catalina */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A62295C8105009B2C14 /* macOS10.15View.swift */,
+				DF41E6A529607A0500F4E9E6 /* macOS10.15ViewModel.swift */,
+			);
+			path = "macOS 10.15 Catalina";
+			sourceTree = "<group>";
+		};
+		DF41E6A729607B6F00F4E9E6 /* macOS 10.14 Mojave */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A64295C84D3009B2C14 /* macOS10.14View.swift */,
+				DF41E6A829607B9000F4E9E6 /* macOS10.14ViewModel.swift */,
+			);
+			path = "macOS 10.14 Mojave";
+			sourceTree = "<group>";
+		};
+		DF54AEE729682E4100C37B66 /* Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				DF3DC7B52969A0B200554AB8 /* WallpaperView.swift */,
+				DFA472F5296AE32900222AD4 /* WallpaperViewModel.swift */,
+				DF3DC7B72969C2FA00554AB8 /* Model */,
+				DF54AEEA2968337500C37B66 /* Rows */,
+			);
+			path = Wallpaper;
+			sourceTree = "<group>";
+		};
+		DF54AEEA2968337500C37B66 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				DF54AEE52968298600C37B66 /* WallpaperRowView.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		DF56D685295DD084006A11A5 /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				DF56D686295DD0A1006A11A5 /* SafariView.swift */,
+				DF41E68C2960625C00F4E9E6 /* SafariViewModel.swift */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		DF85E4BF2954612400CC3DF1 = {
+			isa = PBXGroup;
+			children = (
+				DF85E4CA2954612400CC3DF1 /* iOS Wallpapers */,
+				DF85E4C92954612400CC3DF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF85E4C92954612400CC3DF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF85E4C82954612400CC3DF1 /* iOS Wallpapers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF85E4CA2954612400CC3DF1 /* iOS Wallpapers */ = {
+			isa = PBXGroup;
+			children = (
+				DF85E4CB2954612400CC3DF1 /* Apple_WallpapersApp.swift */,
+				DF85E4CD2954612400CC3DF1 /* ContentView.swift */,
+				DF41E68929605C7200F4E9E6 /* UseCases */,
+				DF41E68A29605C7F00F4E9E6 /* Util */,
+				DF85E4CF2954612400CC3DF1 /* Assets.xcassets */,
+				DF85E4D12954612400CC3DF1 /* Preview Content */,
+			);
+			path = "iOS Wallpapers";
+			sourceTree = "<group>";
+		};
+		DF85E4D12954612400CC3DF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF85E4D22954612400CC3DF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF85E4E22954695800CC3DF1 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				DFDBD587295A282600EB85AA /* DeviceView.swift */,
+				DFD27535296705A800D06ED5 /* DeviceModel.swift */,
+				DF54AEEB2968339A00C37B66 /* DeviceViewModel.swift */,
+				DFD275372967061D00D06ED5 /* Specific Device */,
+				DF54AEE729682E4100C37B66 /* Wallpaper */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		DF85E4E32954696000CC3DF1 /* OS */ = {
+			isa = PBXGroup;
+			children = (
+				DFDBD589295A291D00EB85AA /* OSView.swift */,
+				DF3DCBFA296B51390068F910 /* OSModel.swift */,
+				DF3DCBFC296B519A0068F910 /* Specific OS */,
+				DF3DCBFF296B52E50068F910 /* Wallpaper */,
+				DF0A0D562954AA7A009AA57A /* iOS */,
+				DF0A0D552954AA74009AA57A /* MacOS */,
+				DF56D685295DD084006A11A5 /* Safari */,
+			);
+			path = OS;
+			sourceTree = "<group>";
+		};
+		DFD275372967061D00D06ED5 /* Specific Device */ = {
+			isa = PBXGroup;
+			children = (
+				DFD275332967046300D06ED5 /* SpecificDeviceView.swift */,
+				DFD275382967064B00D06ED5 /* SpecificDeviceModel.swift */,
+				DF54AEED2968379F00C37B66 /* SpecificDeviceViewModel.swift */,
+			);
+			path = "Specific Device";
+			sourceTree = "<group>";
+		};
+		DFE846FE296C9EB50072A4A0 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				DFE846FF296C9EC70072A4A0 /* FavoritesView.swift */,
+				DFE84701296C9ED50072A4A0 /* FavoritesModel.swift */,
+				DFE84703296C9EFC0072A4A0 /* FavoritesViewModel.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		DFFD4ABC2960A2CB002EAB63 /* iOS 9 */ = {
+			isa = PBXGroup;
+			children = (
+				DFE826B3295DBFC100D74DCF /* iOS9View.swift */,
+				DFFD4ABD2960A2D8002EAB63 /* iOS9ViewModel.swift */,
+			);
+			path = "iOS 9";
+			sourceTree = "<group>";
+		};
+		DFFD4AC12960ADA5002EAB63 /* iOS 10 */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D51ED295BAC8200CDB7C8 /* iOS10View.swift */,
+				DFFD4AC22960ADB0002EAB63 /* iOS10ViewModel.swift */,
+			);
+			path = "iOS 10";
+			sourceTree = "<group>";
+		};
+		DFFD4AC42960B12F002EAB63 /* iOS 11 */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D51EB295BA97700CDB7C8 /* iOS11View.swift */,
+				DFFD4AC52960B13C002EAB63 /* iOS11ViewModel.swift */,
+			);
+			path = "iOS 11";
+			sourceTree = "<group>";
+		};
+		DFFD4AC72960B400002EAB63 /* iOS 12 */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D51E9295BA6D100CDB7C8 /* iOS12View.swift */,
+				DFFD4AC82960B40C002EAB63 /* iOS12ViewModel.swift */,
+			);
+			path = "iOS 12";
+			sourceTree = "<group>";
+		};
+		DFFD4ACA2960B4FF002EAB63 /* iOS 13 */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D51E5295BA3E300CDB7C8 /* iOS13View.swift */,
+				DFFD4ACB2960B50B002EAB63 /* iOS13ViewModel.swift */,
+			);
+			path = "iOS 13";
+			sourceTree = "<group>";
+		};
+		DFFD4ACD2960B8E4002EAB63 /* iOS 14 */ = {
+			isa = PBXGroup;
+			children = (
+				DF8D51E3295B9E5200CDB7C8 /* iOS14View.swift */,
+				DFFD4ACE2960B8F3002EAB63 /* iOS14ViewModel.swift */,
+			);
+			path = "iOS 14";
+			sourceTree = "<group>";
+		};
+		DFFD4AD02960BC8E002EAB63 /* iOS 15 */ = {
+			isa = PBXGroup;
+			children = (
+				DF88D2B5295B803D00040E8B /* iOS15View.swift */,
+				DFFD4AD12960BCBF002EAB63 /* iOS15ViewModel.swift */,
+			);
+			path = "iOS 15";
+			sourceTree = "<group>";
+		};
+		DFFD4AD32960BDDA002EAB63 /* iOS 16 */ = {
+			isa = PBXGroup;
+			children = (
+				DF88D2B3295B7AD200040E8B /* iOS16View.swift */,
+				DFFD4AD42960BDE4002EAB63 /* iOS16ViewModel.swift */,
+			);
+			path = "iOS 16";
+			sourceTree = "<group>";
+		};
+		DFFD4AD92960DC6F002EAB63 /* macOS 10.13 High Sierra */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A68295C87E1009B2C14 /* macOS10.13View.swift */,
+				DFFD4ADA2960DC84002EAB63 /* macOS10.13ViewModel.swift */,
+			);
+			path = "macOS 10.13 High Sierra";
+			sourceTree = "<group>";
+		};
+		DFFD4ADC2960DD38002EAB63 /* macOS 10.12 Sierra */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A6A295C89A4009B2C14 /* macOS10.12View.swift */,
+				DFFD4ADD2960DD4C002EAB63 /* macOS10.12ViewModel.swift */,
+			);
+			path = "macOS 10.12 Sierra";
+			sourceTree = "<group>";
+		};
+		DFFD4ADF2960DF05002EAB63 /* OSX 10.11 El Capitan */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A6C295C8BAE009B2C14 /* OSX10.11View.swift */,
+				DFFD4AE02960DF18002EAB63 /* OSX10.11ViewModel.swift */,
+			);
+			path = "OSX 10.11 El Capitan";
+			sourceTree = "<group>";
+		};
+		DFFD4AE22960E078002EAB63 /* OSX 10.10 Yosemite */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A6E295C8D60009B2C14 /* OSX10.10View.swift */,
+				DFFD4AE32960E08D002EAB63 /* OSX10.10ViewModel.swift */,
+			);
+			path = "OSX 10.10 Yosemite";
+			sourceTree = "<group>";
+		};
+		DFFD4AE52960E31E002EAB63 /* OSX 10.9 Mavericks */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A70295C8F33009B2C14 /* OSX10.9View.swift */,
+				DFFD4AE62960E32F002EAB63 /* OSX10.9ViewModel.swift */,
+			);
+			path = "OSX 10.9 Mavericks";
+			sourceTree = "<group>";
+		};
+		DFFF236C2961A6A000ABD196 /* OSX 10.8 Mountain Lion */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A72295C942E009B2C14 /* OSX10.8View.swift */,
+				DFFF236D2961A6B700ABD196 /* OSX10.8ViewModel.swift */,
+			);
+			path = "OSX 10.8 Mountain Lion";
+			sourceTree = "<group>";
+		};
+		DFFF236F2961A79200ABD196 /* OSX 10.7 Lion */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A74295C9685009B2C14 /* OSX10.7View.swift */,
+				DFFF23702961A7AC00ABD196 /* OSX10.7ViewModel.swift */,
+			);
+			path = "OSX 10.7 Lion";
+			sourceTree = "<group>";
+		};
+		DFFF23722961A82800ABD196 /* OSX 10.6 Snow Leopard */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A76295C9930009B2C14 /* OSX10.6View.swift */,
+				DFFF23732961A84B00ABD196 /* OSX10.6ViewModel.swift */,
+			);
+			path = "OSX 10.6 Snow Leopard";
+			sourceTree = "<group>";
+		};
+		DFFF23752961A8CB00ABD196 /* OSX 10.5 Leopard */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A78295C9DE9009B2C14 /* OSX10.5View.swift */,
+				DFFF23762961A8DD00ABD196 /* OSX10.5ViewModel.swift */,
+			);
+			path = "OSX 10.5 Leopard";
+			sourceTree = "<group>";
+		};
+		DFFF23782961A96500ABD196 /* OSX 10.4 Tiger */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A7A295CA0C1009B2C14 /* OSX10.4View.swift */,
+				DFFF23792961A97500ABD196 /* OSX10.4ViewModel.swift */,
+			);
+			path = "OSX 10.4 Tiger";
+			sourceTree = "<group>";
+		};
+		DFFF237B2961A9E800ABD196 /* OSX 10.3 Panther */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A7C295CA286009B2C14 /* OSX10.3View.swift */,
+				DFFF237C2961A9F400ABD196 /* OSX10.3ViewModel.swift */,
+			);
+			path = "OSX 10.3 Panther";
+			sourceTree = "<group>";
+		};
+		DFFF237E2961AA6C00ABD196 /* OSX 10.2 Jaguar */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A7E295CA4E9009B2C14 /* OSX10.2View.swift */,
+				DFFF237F2961AA7C00ABD196 /* OSX10.2ViewModel.swift */,
+			);
+			path = "OSX 10.2 Jaguar";
+			sourceTree = "<group>";
+		};
+		DFFF23812961AAFB00ABD196 /* OSX 10.0 - 10.1 */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D9A80295CA67E009B2C14 /* OSX10.0-10.1View.swift */,
+				DFFF23832961AB1100ABD196 /* OSX10.0ViewModel.swift */,
+			);
+			path = "OSX 10.0 - 10.1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF85E4C72954612400CC3DF1 /* iOS Wallpapers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF85E4D62954612400CC3DF1 /* Build configuration list for PBXNativeTarget "iOS Wallpapers" */;
+			buildPhases = (
+				DF85E4C42954612400CC3DF1 /* Sources */,
+				DF85E4C52954612400CC3DF1 /* Frameworks */,
+				DF85E4C62954612400CC3DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Wallpapers";
+			packageProductDependencies = (
+				DF7D31DD296080B200713844 /* Kingfisher */,
+			);
+			productName = "Apple Wallpapers";
+			productReference = DF85E4C82954612400CC3DF1 /* iOS Wallpapers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF85E4C02954612400CC3DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DF85E4C72954612400CC3DF1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DF85E4C32954612400CC3DF1 /* Build configuration list for PBXProject "iOS Wallpapers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF85E4BF2954612400CC3DF1;
+			packageReferences = (
+				DF7D31DC296080B200713844 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = DF85E4C92954612400CC3DF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF85E4C72954612400CC3DF1 /* iOS Wallpapers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF85E4C62954612400CC3DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF85E4D32954612400CC3DF1 /* Preview Assets.xcassets in Resources */,
+				DF85E4D02954612400CC3DF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF85E4C42954612400CC3DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDBD58C295A2DAF00EB85AA /* iOSView.swift in Sources */,
+				DF9D9A63295C8105009B2C14 /* macOS10.15View.swift in Sources */,
+				DF9D9A77295C9930009B2C14 /* OSX10.6View.swift in Sources */,
+				DF8D51EE295BAC8200CDB7C8 /* iOS10View.swift in Sources */,
+				DFFF23842961AB1100ABD196 /* OSX10.0ViewModel.swift in Sources */,
+				DF88D2B6295B803D00040E8B /* iOS15View.swift in Sources */,
+				DFFD4AC32960ADB0002EAB63 /* iOS10ViewModel.swift in Sources */,
+				DF296A5A29636C0100F9803B /* GridAppView.swift in Sources */,
+				DFFF23772961A8DD00ABD196 /* OSX10.5ViewModel.swift in Sources */,
+				DF9D9A81295CA67E009B2C14 /* OSX10.0-10.1View.swift in Sources */,
+				DF41E68F2960660F00F4E9E6 /* LoadingView.swift in Sources */,
+				DF9D9A71295C8F33009B2C14 /* OSX10.9View.swift in Sources */,
+				DFFD4ADE2960DD4C002EAB63 /* macOS10.12ViewModel.swift in Sources */,
+				DF9D9A7B295CA0C1009B2C14 /* OSX10.4View.swift in Sources */,
+				DFDBD588295A282600EB85AA /* DeviceView.swift in Sources */,
+				DF3DC7BF2969EE4300554AB8 /* MacWallpaperModel.swift in Sources */,
+				DF3DCBF7296B507B0068F910 /* DailyRandomViewModel.swift in Sources */,
+				DF9D9A6D295C8BAE009B2C14 /* OSX10.11View.swift in Sources */,
+				DF41E69529606ECD00F4E9E6 /* macOS13ViewModel.swift in Sources */,
+				DFE84702296C9ED50072A4A0 /* FavoritesModel.swift in Sources */,
+				DF41E6A929607B9000F4E9E6 /* macOS10.14ViewModel.swift in Sources */,
+				DF56D687295DD0A1006A11A5 /* SafariView.swift in Sources */,
+				DF9D9A5F295C75C1009B2C14 /* macOS12View.swift in Sources */,
+				DF41E6A12960769300F4E9E6 /* macOS11ViewModel.swift in Sources */,
+				DFDBD58A295A291D00EB85AA /* OSView.swift in Sources */,
+				DFFD4AC62960B13C002EAB63 /* iOS11ViewModel.swift in Sources */,
+				DF41E68829605B7300F4E9E6 /* VersionDetector.swift in Sources */,
+				DF9D9A6F295C8D60009B2C14 /* OSX10.10View.swift in Sources */,
+				DFFF23802961AA7C00ABD196 /* OSX10.2ViewModel.swift in Sources */,
+				DFFD4AC92960B40C002EAB63 /* iOS12ViewModel.swift in Sources */,
+				DFFD4AE72960E32F002EAB63 /* OSX10.9ViewModel.swift in Sources */,
+				DF9D9A65295C84D3009B2C14 /* macOS10.14View.swift in Sources */,
+				DFE8470C296CB6560072A4A0 /* WallpaperModel.swift in Sources */,
+				DFFD4AD52960BDE4002EAB63 /* iOS16ViewModel.swift in Sources */,
+				DF9D9A73295C942E009B2C14 /* OSX10.8View.swift in Sources */,
+				DFD275342967046300D06ED5 /* SpecificDeviceView.swift in Sources */,
+				DF41E69229606AF800F4E9E6 /* macOSViewModel.swift in Sources */,
+				DF9D9A7D295CA286009B2C14 /* OSX10.3View.swift in Sources */,
+				DF8D51EA295BA6D100CDB7C8 /* iOS12View.swift in Sources */,
+				DFE9089229648AD0000B91E2 /* LockScreenView.swift in Sources */,
+				DF85E4CE2954612400CC3DF1 /* ContentView.swift in Sources */,
+				DFFF23712961A7AC00ABD196 /* OSX10.7ViewModel.swift in Sources */,
+				DFE826B4295DBFC100D74DCF /* iOS9View.swift in Sources */,
+				DFD27C902959B5E200553D50 /* DeviceDetection.swift in Sources */,
+				DF54AEE929682E7700C37B66 /* iPhoneWallpaperModel.swift in Sources */,
+				DFFD4AE42960E08D002EAB63 /* OSX10.10ViewModel.swift in Sources */,
+				DF9D9A69295C87E1009B2C14 /* macOS10.13View.swift in Sources */,
+				DFFF236E2961A6B700ABD196 /* OSX10.8ViewModel.swift in Sources */,
+				DFFD4AD22960BCBF002EAB63 /* iOS15ViewModel.swift in Sources */,
+				DF54AEEE2968379F00C37B66 /* SpecificDeviceViewModel.swift in Sources */,
+				DF9D9A5D295C6C12009B2C14 /* macOS13View.swift in Sources */,
+				DF296A582963655200F9803B /* PreviewView.swift in Sources */,
+				DF41E68D2960625C00F4E9E6 /* SafariViewModel.swift in Sources */,
+				DF0742EE2964E4AE00F5A78E /* DailyRandomView.swift in Sources */,
+				DF3DC7B62969A0B200554AB8 /* WallpaperView.swift in Sources */,
+				DF54AEE62968298700C37B66 /* WallpaperRowView.swift in Sources */,
+				DF8D51E4295B9E5200CDB7C8 /* iOS14View.swift in Sources */,
+				DFFD4AD72960BF4F002EAB63 /* iOSViewModel.swift in Sources */,
+				DF8D51EC295BA97700CDB7C8 /* iOS11View.swift in Sources */,
+				DF3DCBFE296B51AA0068F910 /* SpecificOSModel.swift in Sources */,
+				DFFD4ACF2960B8F3002EAB63 /* iOS14ViewModel.swift in Sources */,
+				DF9D9A75295C9685009B2C14 /* OSX10.7View.swift in Sources */,
+				DF3DCBFB296B51390068F910 /* OSModel.swift in Sources */,
+				DF9D9A6B295C89A4009B2C14 /* macOS10.12View.swift in Sources */,
+				DF0742F02964E4DF00F5A78E /* DailyRandomModel.swift in Sources */,
+				DFAD04EF296B3C5900791976 /* FavoriteAlert.swift in Sources */,
+				DFFD4ADB2960DC84002EAB63 /* macOS10.13ViewModel.swift in Sources */,
+				DFD80A2A295B191A004B8BC9 /* MacOSView.swift in Sources */,
+				DFE84707296CB2890072A4A0 /* macOSModel.swift in Sources */,
+				DFA1CEA4295CCF4800D8768A /* infoView.swift in Sources */,
+				DFE84700296C9EC70072A4A0 /* FavoritesView.swift in Sources */,
+				DF8D51E6295BA3E300CDB7C8 /* iOS13View.swift in Sources */,
+				DFD275392967064B00D06ED5 /* SpecificDeviceModel.swift in Sources */,
+				DF9D9A79295C9DE9009B2C14 /* OSX10.5View.swift in Sources */,
+				DF85E4CC2954612400CC3DF1 /* Apple_WallpapersApp.swift in Sources */,
+				DFFF23742961A84B00ABD196 /* OSX10.6ViewModel.swift in Sources */,
+				DFFD4AE12960DF18002EAB63 /* OSX10.11ViewModel.swift in Sources */,
+				DFFD4ABE2960A2D8002EAB63 /* iOS9ViewModel.swift in Sources */,
+				DFFD4ACC2960B50B002EAB63 /* iOS13ViewModel.swift in Sources */,
+				DF88D2B4295B7AD200040E8B /* iOS16View.swift in Sources */,
+				DFE84704296C9EFC0072A4A0 /* FavoritesViewModel.swift in Sources */,
+				DFD27536296705A800D06ED5 /* DeviceModel.swift in Sources */,
+				DF3DCC02296B53040068F910 /* iOSModel.swift in Sources */,
+				DF9D9A7F295CA4E9009B2C14 /* OSX10.2View.swift in Sources */,
+				DF41E69E296071D000F4E9E6 /* macOS12ViewModel.swift in Sources */,
+				DF54AEEC2968339A00C37B66 /* DeviceViewModel.swift in Sources */,
+				DFE84709296CB2900072A4A0 /* SafariModel.swift in Sources */,
+				DF41E6A629607A0500F4E9E6 /* macOS10.15ViewModel.swift in Sources */,
+				DF41E699296070A400F4E9E6 /* PickerView.swift in Sources */,
+				DFFF237D2961A9F400ABD196 /* OSX10.3ViewModel.swift in Sources */,
+				DFA472F6296AE32900222AD4 /* WallpaperViewModel.swift in Sources */,
+				DFFF237A2961A97500ABD196 /* OSX10.4ViewModel.swift in Sources */,
+				DF3DC7BD2969D82C00554AB8 /* iPadWallpaperModel.swift in Sources */,
+				DF7D31E02960846900713844 /* SaveImage.swift in Sources */,
+				DF3DC7BB2969C80E00554AB8 /* DisplaysWallpaperModel.swift in Sources */,
+				DF9D9A61295C7DA7009B2C14 /* macOS11View.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF85E4D42954612400CC3DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF85E4D52954612400CC3DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF85E4D72954612400CC3DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Wallpapers/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ3K8YX7LC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Wallpapers-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Wallpapers;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castilla.iOS-Wallpapers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF85E4D82954612400CC3DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Wallpapers/Preview Content\"";
+				DEVELOPMENT_TEAM = XZ3K8YX7LC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-Wallpapers-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Wallpapers;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.castilla.iOS-Wallpapers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF85E4C32954612400CC3DF1 /* Build configuration list for PBXProject "iOS Wallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF85E4D42954612400CC3DF1 /* Debug */,
+				DF85E4D52954612400CC3DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF85E4D62954612400CC3DF1 /* Build configuration list for PBXNativeTarget "iOS Wallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF85E4D72954612400CC3DF1 /* Debug */,
+				DF85E4D82954612400CC3DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF7D31DC296080B200713844 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF7D31DD296080B200713844 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF7D31DC296080B200713844 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DF85E4C02954612400CC3DF1 /* Project object */;
+}
