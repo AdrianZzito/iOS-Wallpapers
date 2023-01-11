@@ -7,6 +7,12 @@ This app was supposed to be launched by the end of January, but a rejection by A
 iOS Wallpapers was built entirely using SwiftUI, it has been also combined with the fantastic library called Kingfished, which made me able to load all the wallpapers and app assets from an external server to highly reduce the app size which at the beggining was more than 800mb and at the end it was less than 20mb. Also, the app has been made following the MVVM architecture (Model-View-ViewModel)
 
 ## How to build
+
+### Requirements:
+
+  - A Mac (Where you are going to build the app), no matter if it is a MacBook, iMac... it just need to be a mac able to run XCode
+  - An iPhone running iOS 16 or later, here is where you will run the app
+
 As this app is not going to be on the App Store, you cannot download it from there but you can build the app in your own so you can use it whenever you want, just follow this little guide:
   - **Step 1**: Download the project from GitHub
   - **Step 2**: Download the Apple's IDE XCode from the Mac App Store
