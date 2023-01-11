@@ -4,7 +4,7 @@
 This app was supposed to be launched by the end of January, but a rejection by Apple due to Intelectual Property lead me without any option on publishing in into the App Store
 
 ## About the app
-iOS Wallpapers was built entirely using SwiftUI, it has been also combined with the fantastic library called Kingfished, which made me able to load all the wallpapers and app assets from an external server to highly reduce the app size which at the beggining was more than 800mb and at the end it was less than 20mb
+iOS Wallpapers was built entirely using SwiftUI, it has been also combined with the fantastic library called Kingfished, which made me able to load all the wallpapers and app assets from an external server to highly reduce the app size which at the beggining was more than 800mb and at the end it was less than 20mb. Also, the app has been made following the MVVM architecture (Model-View-ViewModel)
 
 ## How to build
 As this app is not going to be on the App Store, you cannot download it from there but you can build the app in your own so you can use it whenever you want, just follow this little guide:
